@@ -1,0 +1,37 @@
+{
+  "name": "vue-scratchy",
+  "version": "0.0.1",
+  "description": "an javascript implementation that simulate scratch-card in web-browser",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyang1026/vue-scratchy.git"
+  },
+  "keywords": [
+    "vue",
+    "scratch-card"
+  ],
+  "author": "luyang1026",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luyang1026/vue-scratchy/issues"
+  },
+  "homepage": "https://github.com/luyang1026/vue-scratchy#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "vuepress": "^1.5.2",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
